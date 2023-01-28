@@ -1,0 +1,46 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+
+main {
+  background-color: aliceblue;
+  border-radius: 5px;
+
+  padding: 5rem;
+  border: 1px solid gold;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+h1 {
+  padding: 1rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container button {
+  text-transform: capitalize;
+  background-color: black;
+  color: white;
+  margin: 1rem;
+}
+
+.container button:hover {
+  background-color: white;
+  color: black;
+}
