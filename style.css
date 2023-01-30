@@ -11,6 +11,12 @@ body {
   font-family: "Roboto", sans-serif;
   text-transform: capitalize;
 }
+header h1,
+h2 {
+  text-align: center;
+  /* margin: 1rem; */
+  color: grey;
+}
 
 main {
   background-color: aliceblue;
@@ -43,4 +49,19 @@ h1 {
 .container button:hover {
   background-color: white;
   color: black;
+}
+
+#startbutn {
+  text-transform: capitalize;
+  background-color: black;
+  color: white;
+  margin: 1rem;
+}
+#startbutn:hover {
+  background-color: white;
+  color: black;
+}
+
+#guessleft {
+  color: red;
 }
